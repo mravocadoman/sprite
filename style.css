@@ -1,0 +1,20 @@
+.container{
+    height:300px;
+    width:250px;
+    background-image:url(Spritesheet_wobg2.png);
+    animation:move 1s steps(5) infinite;
+    margin-top:55vh;
+    margin-left:5vw;
+}
+
+body{
+    background-image:url(tank1.png);
+    background-repeat: no-repeat;
+
+}
+
+@keyframes move {
+    to {
+        background-position: -1250px;
+    }
+}
